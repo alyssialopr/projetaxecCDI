@@ -37,14 +37,14 @@ window.addEventListener('scroll', function() {
 const envoi = document.getElementById('register')
 
 envoi.onclick= function() {
-    window.location.href = 'html/inscription.html'
+    window.location.href = '/html/inscription.html'
 }
 
 // Envoyer vers la page de connexion 
 const connexion = document.getElementById('utilisateur')
 
 connexion.onclick= function() {
-    window.location.href = 'html/connexion.html'
+    window.location.href = '/html/connexion.html'
 }
 
 
